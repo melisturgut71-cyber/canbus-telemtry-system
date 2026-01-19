@@ -7,10 +7,10 @@
 #include <HardwareSerial.h> 
 
 // --- WIFI VE MQTT AYARLARI ---
-const char* ssid = "FiberHGW_ZY88A5";        
-const char* password = "XLyJVUNm4qE3";  
+const char* ssid = "name";        
+const char* password = "password";  
 const char* mqtt_server = "broker.hivemq.com"; 
-const char* mqtt_topic = "melis/corsa/data";
+const char* mqtt_topic = "corsa/data";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
